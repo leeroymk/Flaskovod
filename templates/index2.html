@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <p>Hello-hello-hello. Hello?</p>
+        <img src="{{ url_for('static', filename='img/1.jpg') }}" alt="Img" width="240" height="240">
+        <p>Hello, Flask! Well done, {{ name }}!</p>
+        <p>You have completed {{ project_number }} project(s).</p>
+    </body>
+</html>
+
+<script>
+    alert('Wow')
+</script>

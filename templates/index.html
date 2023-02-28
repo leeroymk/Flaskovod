@@ -1,16 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Title</title>
-        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    </head>
-    <body>
-        <p>Hello-hello-hello. Hello?</p>
-        <img src="{{ url_for('static', filename='img/1.jpg') }}" alt="Img" width="240" height="240">
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p>{{ number * 2 }}</p>
+    <p>{{ text }}</p>
+</body>
 </html>
-
-<script>
-    alert('Wow')
-</script>
